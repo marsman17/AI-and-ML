@@ -1,0 +1,15 @@
+{
+  "saved_model": "path/to/saved/model.pth",
+  "batch_max_length": 100,
+  "imgH": 32,
+  "imgW": 400,
+  "rgb": false,
+  "FeatureExtraction": "HRNet",
+  "SequenceModeling": "DBiLSTM",
+  "Prediction": "CTC",
+  "num_fiducial": 20,
+  "input_channel": 1,
+  "output_channel": 32,
+  "hidden_size": 256,
+  "device_id": null
+}

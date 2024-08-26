@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <style>
+      p {
+        font-size: 36px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    {{ text|safe }}
+    <br><br>
+    <a href="{{ url_for('upload') }}">Image Upload</a>
+    </a>
+    <br><br>
+  </body>
+</html>

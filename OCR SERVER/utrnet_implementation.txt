@@ -1,0 +1,13 @@
+git clone https://github.com/abdur75648/UTRNet-High-Resolution-Urdu-Text-Recognition.git
+
+cd UTRNet-High-Resolution-Urdu-Text-Recognition
+
+pip3 install -r requirements.txt -f https://download.pytorch.org/whl/torch_stable.html
+
+
+conda install pytorch
+conda install torchvision
+conda install matplotlib
+
+
+python3 read.py --image_path text_line_1.png --FeatureExtraction HRNet --SequenceModeling DBiLSTM --Prediction CTC  --saved_model /Users/Smart/Downloads/best_norm_ED.pth
